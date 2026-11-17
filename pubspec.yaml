@@ -1,0 +1,31 @@
+name: sizzleflow
+description: SizzleFlow - sales and expense tracker with offline mode and Bluetooth receipt printing for SIP & SIZZLE.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.3.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.3.3
+  path: ^1.9.0
+  shared_preferences: ^2.2.3
+  http: ^1.2.1
+  crypto: ^3.0.3
+  uuid: ^4.4.0
+  image_picker: ^1.1.2
+  permission_handler: ^11.3.1
+  print_bluetooth_thermal: ^1.1.3
+  share_plus: ^10.1.4
+  path_provider: ^2.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
